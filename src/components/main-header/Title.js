@@ -1,31 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
 
-const TitleStyle = styled.div`
-  margin-top: 100px;
-  .small-height {
-    font-family: 'Inconsolata', monospace;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 38px;
-    color: rgba(255, 255, 255, 0.8);
-    @media (max-width: 991px) {
-      line-height: 28px;
-    }
-  }
-  .circle {
-    color: #ff5252;
-  }
-  .about-wrapper {
-    margin-top: 200px;
-  }
-  .colon {
-    color: #ff5252;
-  }
-  .about {
-    line-height: 38px;
-  }
-`;
+import { TitleStyle } from '../../style/HeaderContainerStyle';
 
 const Title = () => (
   <>

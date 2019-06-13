@@ -1,7 +1,40 @@
-import React from 'react';
 import styled from 'styled-components';
 
-const WrapSocial = styled.div`
+export const MainHeaderStyle = styled.div`
+  .logo img {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+  }
+`;
+
+export const TitleStyle = styled.div`
+  margin-top: 100px;
+  .small-height {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: rgba(255, 255, 255, 0.8);
+    @media (max-width: 991px) {
+      line-height: 28px;
+    }
+  }
+  .circle {
+    color: #ff5252;
+  }
+  .about-wrapper {
+    margin-top: 200px;
+  }
+  .colon {
+    color: #ff5252;
+  }
+  .about {
+    line-height: 38px;
+  }
+`;
+
+export const SocialStyle = styled.div`
   position: fixed;
   right: -210px;
   top: 235px;
@@ -52,43 +85,3 @@ const WrapSocial = styled.div`
     }
   }
 `;
-
-const Socials = () => (
-  <WrapSocial>
-    <ul>
-      <li>
-        <a alt=".." href="/#" target="_blank">
-          Facebook
-        </a>
-      </li>
-      <li>
-        <a alt=".." href="/#" target="_blank">
-          Linkedin
-        </a>
-      </li>
-      <li>
-        <a alt=".." href="/#" target="_blank">
-          Github
-        </a>
-      </li>
-      <li>
-        <a alt=".." href="/#">
-          Behance
-        </a>
-      </li>
-      <li>
-        <a alt=".." href="/#">
-          Mail
-        </a>
-      </li>
-    </ul>
-    <div className="jb-miranda">
-      <a href="/#">
-        John Benedict Miranda
-        <i className="fas fa-heart" />
-      </a>
-    </div>
-  </WrapSocial>
-);
-
-export default Socials;
