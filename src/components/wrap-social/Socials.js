@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const WrapSocial = styled.div`
   position: fixed;
-  right: -225px;
+  right: -210px;
   top: 235px;
   z-index: 99;
   ul {
@@ -38,13 +38,16 @@ const WrapSocial = styled.div`
       font-size: 18px;
       line-height: 28px;
       background: #1f1f1f;
-      padding: 0 8px;
       text-decoration: none;
       position: relative;
       text-decoration: line-through;
       display: inline-block;
       &:hover {
         text-decoration: none;
+      }
+      i {
+        margin-left: 8px;
+        font-size: 15px;
       }
     }
   }
@@ -65,7 +68,7 @@ const Socials = () => (
       </li>
       <li>
         <a alt=".." href="/#" target="_blank">
-          Twitter
+          Github
         </a>
       </li>
       <li>

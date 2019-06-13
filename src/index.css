@@ -161,9 +161,21 @@ h1 {
   z-index: 23;
 }
 
+h2 {
+  font-size: 100px;
+  line-height: 120px;
+  font-weight: 700;
+  margin-bottom: 75px;
+}
+
+/* ------------------- MEDIA QUERIES ----------------------- */
 @media (max-width: 991px) {
   h1 {
     font-size: 145px;
     line-height: 160px;
+  }
+  h2 {
+    font-size: 80px;
+    line-height: 100px;
   }
 }
