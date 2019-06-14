@@ -1,7 +1,7 @@
-import React from 'react';
-import { AppStyle } from './style/AppStyle';
+  import React from "react";
+import { AppStyle } from "./style/AppStyle";
 
-import HeaderContainer from './components/main-header/HeaderContainer';
+import HeaderContainer from "./components/main-header/HeaderContainer";
 
 const App = () => (
   <AppStyle>
