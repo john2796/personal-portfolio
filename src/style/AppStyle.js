@@ -18,6 +18,7 @@ export const AppStyle = styled.div`
   /*-------------------------------------------------*/
   /*                GENERAL
 /*-------------------------------------------------*/
+
   h1 {
     font-size: 165px;
     line-height: 170px;
@@ -100,7 +101,9 @@ export const AppStyle = styled.div`
   .circle {
     color: #ff5252;
   }
+
   /* ============> CONTAINER  */
+
   .container {
     border: 1px solid red;
     max-width: 87%;
@@ -108,6 +111,7 @@ export const AppStyle = styled.div`
   }
 
   /* spacing on bottom of site need to remove later  */
+
   .test {
     margin-bottom: 5000px;
   }

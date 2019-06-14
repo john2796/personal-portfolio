@@ -1,9 +1,9 @@
 /*-------------------------------------------------*/
-/* = Import GOOGLE fonts 
+/* = Import GOOGLE fonts
 /*-------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900");
-@import url("https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i");
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i');
 
 /*-------------------------------------------------*/
 /*                RESET
@@ -126,7 +126,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -144,7 +144,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
-  font: 100% "Product Sans", sans-serif;
+  font: 100% 'Product Sans', sans-serif;
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
   font-size: 62.5%;
@@ -154,12 +154,6 @@ img {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-  monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
-
-
-
-
-
-
