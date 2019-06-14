@@ -1,0 +1,96 @@
+/*-------------------------------------------------*/
+/*                VARIABLE
+/*-------------------------------------------------*/
+
+
+$yellow: #fdcc01; // examples
+
+// media queries
+// Screen size variables desktop approach
+$screen-xs-max: 450px; // Tiny phones
+$screen-sm-max: 576px; // Small tablets and large smartphones (landscape view)
+$screen-xm-max: 700px; // Small tablets and large smartphones (landscape view)
+$screen-md-max: 768px; // Small tablets (portrait view)
+$screen-lg-max: 992px; // Tablets and small desktops
+$screen-xl-max: 1200px; // Large tablets and desktops
+
+// Mixins
+@mixin xs {
+  @media (max-width: #{$screen-xs-max}) {
+    @content;
+  }
+} // Tiny devices
+@mixin sm {
+  @media (max-width: #{$screen-sm-max}) {
+    @content;
+  }
+} // Small devices
+@mixin md {
+  @media (max-width: #{$screen-md-max}) {
+    @content;
+  }
+} // Medium devices
+@mixin xm {
+  @media (max-width: #{$screen-xm-max}) {
+    @content;
+  }
+} // Medium devices
+@mixin lg {
+  @media (max-width: #{$screen-lg-max}) {
+    @content;
+  }
+} // Large devices
+@mixin xl {
+  @media (max-width: #{$screen-xl-max}) {
+    @content;
+  }
+} // Extra large devices
+
+@mixin wrapper {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+@mixin mainhover {
+  color: $white;
+  background: $yellow;
+  &:hover {
+    color: $white;
+    background: $darkblue;
+  }
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+  // align-items: baseline;
+}
+
+@mixin favstyle {
+  background-color: $footersearch;
+  color: $white;
+  padding: 1px 5px;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+/*
+Use like so:
+  @include sm {         // 576px window width and more
+    padding-bottom: 100%;
+    color: #000;
+  }
+  
+Example 
+$color-red: #FF0000;
+$color-blue: #0000FF;
+how to call it 
+h1 { color: $color-red; }
+a { color: $color-blue; }
+
+*/
+
+
+
+
+

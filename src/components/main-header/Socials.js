@@ -1,11 +1,8 @@
 import React from 'react';
-import { SocialStyle } from '../../style/HeaderContainerStyle';
-
-
-
+import './social.scss';
 
 const Socials = () => (
-  <SocialStyle>
+  <div className="social-contaier">
     <ul>
       <li>
         <a alt=".." href="/#" target="_blank">
@@ -33,13 +30,14 @@ const Socials = () => (
         </a>
       </li>
     </ul>
+
     <div className="jb-miranda">
       <a href="/#">
         John Benedict Miranda
         <i className="fas fa-heart" />
       </a>
     </div>
-  </SocialStyle>
+  </div>
 );
 
 export default Socials;

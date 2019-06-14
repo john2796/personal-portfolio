@@ -1,68 +1,12 @@
+// ========= Variable and Mixins
 
-// ===========> Variables and mixins
-@import './libs/_variable';
-@import './libs/_mixins';
-
-
-
-// ===========> General Styles 
-@import './libs/_reset';
-@import './libs/_global';
+@import "./libs/_variable.scss";
+@import "./libs/_mixins.scss";
 
 
-
-// ===========> Components 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// GENERAL
+@import "./libs/_reset.scss";
+@import "./libs/_global.scss";
 
 
 

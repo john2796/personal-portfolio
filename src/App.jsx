@@ -1,13 +1,12 @@
 import React from 'react';
-import { AppStyle } from './style/AppStyle';
-
 import HeaderContainer from './components/main-header/HeaderContainer';
+import './App.scss';
 
 const App = () => (
-  <AppStyle>
+  <div className="app">
     <HeaderContainer />
     <div className="test">testing</div>
-  </AppStyle>
+  </div>
 );
 
 export default App;

@@ -1,13 +1,12 @@
-import React from "react";
-import { BlueCircle } from "../../style/AppStyle";
-import { MainHeaderStyle } from "../../style/HeaderContainerStyle";
+import React from 'react';
+import './headerContainer.scss';
 
-import logo from "../../assets/logo.png";
-import Socials from "./Socials";
-import Title from "./Title";
+import logo from '../../assets/logo.png';
+import Socials from './Socials';
+import Title from './Title';
 
 const HeaderContainer = () => (
-  <MainHeaderStyle>
+  <div className="header-container">
     <p className="logo">
       <img src={logo} alt="JBM" />
     </p>
@@ -16,7 +15,7 @@ const HeaderContainer = () => (
       <Title />
 
       {/* ==============> BLUECIRCLE */}
-      <BlueCircle bottom="700px" left="220px" opacity="0.7" />
+      {/* <BlueCircle bottom="700px" left="220px" opacity="0.7" />
       <BlueCircle top="-970px" left="0" />
       <BlueCircle
         top="-1040px"
@@ -50,12 +49,12 @@ const HeaderContainer = () => (
         opacity="0.1"
         bottom="411px"
         left="333px"
-      />
+      /> */}
 
       {/* =========== > SOCIALS */}
       <Socials />
     </div>
-  </MainHeaderStyle>
+  </div>
 );
 
 export default HeaderContainer;
