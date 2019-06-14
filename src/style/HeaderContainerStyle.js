@@ -10,6 +10,7 @@ export const MainHeaderStyle = styled.div`
 
 export const TitleStyle = styled.div`
   margin-top: 100px;
+  /* ===========> SUBTITLE  */
   .small-height {
     font-family: 'Inconsolata', monospace;
     font-weight: 300;
@@ -23,6 +24,8 @@ export const TitleStyle = styled.div`
   .circle {
     color: #ff5252;
   }
+
+  /* =========> ABOUT SECTION */
   .about-wrapper {
     margin-top: 200px;
   }

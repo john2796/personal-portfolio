@@ -5,23 +5,26 @@ import { TitleStyle } from '../../style/HeaderContainerStyle';
 const Title = () => (
   <>
     <TitleStyle>
-      <h1>
-        Hello
-        <span className="circle">.</span>
-        <br />
-        I am
-        <br />
-        Benedict
-      </h1>
-
-      <div className="wrap-description">
-        <p className="small-height">
-          Full-Stack Web Developer
+      <div className="name-wrapper">
+        <h1>
+          Hello
+          <span className="circle">.</span>
           <br />
-          based in San Deigo
-        </p>
+          I am
+          <br />
+          Benedict
+        </h1>
+
+        <div className="wrap-description">
+          <p className="small-height">
+            Full-Stack Web Developer
+            <br />
+            based in San Deigo
+          </p>
+        </div>
       </div>
 
+      {/* =========> ABOUT ME INTRO */}
       <div className="about-wrapper">
         <h2>
           About_
