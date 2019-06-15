@@ -1,8 +1,9 @@
 import React from 'react';
-import './social.scss';
+import './socials.scss';
 
 const Socials = () => (
-  <div className="social-contaier">
+  // ============ SOCIALS ==============
+  <div className="social-container">
     <ul>
       <li>
         <a alt=".." href="/#" target="_blank">
@@ -31,6 +32,7 @@ const Socials = () => (
       </li>
     </ul>
 
+    {/* ============ JBMIRANDA ============== */}
     <div className="jb-miranda">
       <a href="/#">
         John Benedict Miranda

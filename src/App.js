@@ -1,6 +1,6 @@
 import React from 'react';
 import HeaderContainer from './components/main-header/HeaderContainer';
-import './App.scss';
+import './app.scss';
 
 const App = () => (
   <div className="app">
