@@ -6,37 +6,7 @@
   border: 3px solid pink;
 }
 
-.social-container {
-  position: fixed;
-  right: -210px;
-  top: 235px;
-  z-index: 99;
-
-  ul {
-    transform: rotate(-90deg);
-  }
-
-  .jb-miranda {
-    position: fixed;
-    z-index: 99;
-    @media (max-width: 991px) {
-      left: inherit;
-      right: -75px;
-      top: calc(100vh - 135px);
-    }
-    a {
-      transform: rotate(-90deg);
-      background: #1f1f1f;
-      position: relative;
-      text-decoration: line-through;
-      display: inline-block;
-      &:hover {
-        text-decoration: none;
-      }
-      i {
-        margin-left: 8px;
-        font-size: 15px;
-      }
-    }
-  }
+// ==============> BLUECIRCLE
+.blueCircle-0 {
+  // @include blueCircleMixins(700px);
 }

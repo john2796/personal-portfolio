@@ -10,9 +10,9 @@
 
   .jb-miranda {
     position: fixed;
-    right: -114px;
     z-index: 99;
     bottom: 112px;
+    right: -104px;
 
     a {
       transform: rotate(-90deg);
@@ -20,6 +20,8 @@
       position: relative;
       text-decoration: line-through;
       display: inline-block;
+      font-size: 16px;
+      text-transform: inherit;
       &:hover {
         text-decoration: none;
       }

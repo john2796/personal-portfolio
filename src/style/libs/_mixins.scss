@@ -2,56 +2,52 @@
 /*                MIXINS
 /*-------------------------------------------------*/
 
-//export const BlueCircle = styled.p`
-  //width: ${props => props.width || '20px'};
-  //height: ${props => props.height || '20px'};
-  //border: 18px solid #0097a7;
-  //border-radius: 40%;
-  //opacity: ${props => props.opacity || 1};
-  //position: relative;
-  //left: ${props => props.left || 1};
-  //right: ${props => props.right || 1};
-  //top: ${props => props.top || 1};
-  //bottom: ${props => props.bottom || 1};
-  //z-index: -4;
-//`;
+@mixin blueCircleMixins(
+  $width,
+  $height,
+  $opacity,
+  $left,
+  $right,
+  $top,
+  $bottom
+) {
+  width: $width;
+  height: $height;
+  border: 18px solid #0097a7;
+  border-radius: 40%;
+  opacity: $opacity;
+  position: relative;
+  left: $left;
+  right: $right;
+  top: $top;
+  bottom: $bottom;
+  z-index: -4;
+}
 
-
-/* USAGE
-
+/*  ================ USAGE ================
 BASIC -->
-
 @mixin float-left {
   float: left;
 }
-
 .call-out {
  @include float-left;
  background-color: gray;
 }
 
-
-
 PARAMS -->
-
 @mixin a-button( $val ) {
  a {
     color: $val; 
    } 
- 
  }
-
 .main-btn {
   @include a-button(red);
 } 
 
-
 EXTENDS -->
-
 .btn {
   margin:1px;
 }
-
 .menu-btn {
   @extend .btn;
 }
