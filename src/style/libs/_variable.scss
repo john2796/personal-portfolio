@@ -2,7 +2,6 @@
 /*                VARIABLE
 /*-------------------------------------------------*/
 
-
 $yellow: #fdcc01; // examples
 
 // media queries
@@ -46,51 +45,14 @@ $screen-xl-max: 1200px; // Large tablets and desktops
   }
 } // Extra large devices
 
-@mixin wrapper {
-  max-width: 1200px;
-  width: 95%;
-  margin: 0 auto;
-}
-@mixin mainhover {
-  color: $white;
-  background: $yellow;
-  &:hover {
-    color: $white;
-    background: $darkblue;
-  }
-}
-
-@mixin flex {
-  display: flex;
-  justify-content: space-between;
-  // align-items: baseline;
-}
-
-@mixin favstyle {
-  background-color: $footersearch;
-  color: $white;
-  padding: 1px 5px;
-  font-size: 1.3rem;
-  font-weight: 300;
-}
-
 /*
-Use like so:
-  @include sm {         // 576px window width and more
-    padding-bottom: 100%;
+=================== USAGE =====================
+MEDIA QUERY ---->
+  @include sm {         
     color: #000;
   }
-  
-Example 
+
+VARIABLE ---->
 $color-red: #FF0000;
-$color-blue: #0000FF;
-how to call it 
-h1 { color: $color-red; }
 a { color: $color-blue; }
-
 */
-
-
-
-
-
