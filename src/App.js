@@ -1,12 +1,14 @@
 import React from 'react';
+import { AppStyle } from './AppStyle';
 import HeaderContainer from './components/main-header/HeaderContainer';
-import './app.scss';
+import Grid from './components/grid/Grid';
 
 const App = () => (
-  <div className="app">
+  <AppStyle className="app">
+    <Grid />
     <HeaderContainer />
     <div className="test">testing</div>
-  </div>
+  </AppStyle>
 );
 
 export default App;

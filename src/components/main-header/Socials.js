@@ -1,9 +1,9 @@
 import React from 'react';
-import './socials.scss';
+import { SocialContainer } from './HeaderContainerStyle';
 
 const Socials = () => (
   // ============ SOCIALS ==============
-  <div className="social-container">
+  <SocialContainer>
     <ul>
       <li>
         <a alt=".." href="/#" target="_blank">
@@ -32,14 +32,14 @@ const Socials = () => (
       </li>
     </ul>
 
-    {/* ============ JBMIRANDA ============== */}
+    {/* ============ JBMIRANDA SIDEBAR ============== */}
     <div className="jb-miranda">
       <a href="/#">
         John Benedict Miranda
         <i className="fas fa-heart" />
       </a>
     </div>
-  </div>
+  </SocialContainer>
 );
 
 export default Socials;

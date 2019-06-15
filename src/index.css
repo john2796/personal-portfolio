@@ -1,3 +1,15 @@
+/* = Import GOOGLE fonts
+/*-------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i");
+
+/* VARIABLES ======> */
+:root {
+  --black: #1a1a1a;
+  --testing: red;
+}
+
 /*-------------------------------------------------*/
 /*                RESET
 /*-------------------------------------------------*/
@@ -125,4 +137,27 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body {
+  background-color: var(--black);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  font: 100% "Product Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+img {
+  max-width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+img {
+  max-width: 100%;
 }

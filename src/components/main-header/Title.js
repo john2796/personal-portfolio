@@ -1,8 +1,8 @@
 import React from 'react';
-import './title.scss';
+import { TitleContainer } from './HeaderContainerStyle';
 
 const Title = () => (
-  <div className="title-container">
+  <TitleContainer>
     <div className="name-wrapper">
       <h1>
         Hello
@@ -13,13 +13,11 @@ const Title = () => (
         Benedict
       </h1>
 
-      <div className="wrap-description">
-        <p className="small-height">
-          Full-Stack Web Developer
-          <br />
-          based in San Deigo
-        </p>
-      </div>
+      <p className="fs-web">
+        Full-Stack Web Developer
+        <br />
+        based in San Deigo
+      </p>
     </div>
 
     {/* =========> ABOUT ME INTRO */}
@@ -36,7 +34,7 @@ const Title = () => (
         upon projects and designs, seeking to inspire people with easy to navigate web design
       </p>
     </div>
-  </div>
+  </TitleContainer>
 );
 
 export default Title;

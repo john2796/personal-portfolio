@@ -6,13 +6,12 @@ import { BrowserRouter as Router, withRouter } from 'react-router-dom';
 
 import App from './App';
 import store from './store/store';
-import './style/main.scss'; // import main scss
+import './index.css';
 
 import * as serviceWorker from './serviceWorker';
 
 const AppWithRouter = withRouter(App);
 const app = (
-  // need to fix eslint error
   <Provider store={store}>
     <Router>
       <AppWithRouter />
