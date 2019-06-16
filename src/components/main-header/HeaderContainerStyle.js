@@ -52,7 +52,6 @@ export const TitleContainer = styled.div`
   .name-wrapper {
     display: flex;
     justify-content: space-between;
-    padding-top: 100px;
     h1 {
       order: 2;
     }
@@ -61,13 +60,6 @@ export const TitleContainer = styled.div`
     transform: rotate(-90deg);
     margin-top: 250px;
     height: 100%;
-  }
-
-  .about-wrapper {
-    margin-top: 200px;
-  }
-  .about {
-    line-height: 38px;
   }
 `;
 

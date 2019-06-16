@@ -46,6 +46,12 @@ export const AppStyle = styled.div`
     @media (max-width: 380px) {
     } */
   }
+  h4 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
 
   p {
     font-family: 'Inconsolata', monospace;
@@ -99,6 +105,5 @@ export const AppStyle = styled.div`
   .container {
     max-width: 87%;
     margin: 0 auto;
-    border: 1px solid salmon;
   }
 `;

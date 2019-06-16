@@ -19,21 +19,6 @@ const Title = () => (
         based in San Deigo
       </p>
     </div>
-
-    {/* =========> ABOUT ME INTRO */}
-    <div className="about-wrapper">
-      <h2>
-        About_
-        <br />
-        me
-        <span className="colon">:</span>
-      </h2>
-      <p className="about small-height">
-        Hello. I am John a Web developer who strives to learn, and take on challenges daily.
-        Experienced in mentoring other developers, and teaching programming Consistently improves
-        upon projects and designs, seeking to inspire people with easy to navigate web design
-      </p>
-    </div>
   </TitleContainer>
 );
 
