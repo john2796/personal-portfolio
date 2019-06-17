@@ -49,16 +49,21 @@ export const BlueCircle = styled.div`
 /*-------------------------------------------------*/
 
 export const TitleContainer = styled.div`
+  border: 1px solid pink;
+  height: 100vh;
+  display: flex;
+  align-items: center;
   .name-wrapper {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    height: auto;
     h1 {
       order: 2;
     }
   }
   .fs-web {
     transform: rotate(-90deg);
-    margin-top: 250px;
     height: 100%;
   }
 `;

@@ -14,6 +14,7 @@ const App = () => (
     <ProjectContainer />
     {/* things todo
     - [] Work on Featured works / Projects section:
+    - [] Add footer section
     - [] Add responsive
      */}
   </AppStyle>

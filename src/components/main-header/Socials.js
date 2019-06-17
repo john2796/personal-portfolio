@@ -36,7 +36,7 @@ const Socials = () => (
     <div className="jb-miranda">
       <a href="/#">
         John Benedict Miranda
-        <i className="fas fa-heart" />
+        <i className="fa fa-heart" aria-hidden="true" />
       </a>
     </div>
   </SocialContainer>

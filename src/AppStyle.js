@@ -88,6 +88,12 @@ export const AppStyle = styled.div`
     text-decoration: none;
   }
 
+  h3 {
+    font-size: 100px;
+    line-height: 120px;
+    font-weight: 700;
+    margin-bottom: 75px;
+  }
   /*-------------------------------------------------*/
   /*              RANDOM_GLOBAL  
 /*-------------------------------------------------*/
