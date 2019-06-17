@@ -68,6 +68,7 @@ export const ProjectStyle = styled.section`
       right: -25px;
       text-align: center;
       font-family: 'FontAwesome';
+      opacity: 0.5;
     }
 
     a.link {
@@ -82,6 +83,7 @@ export const ProjectStyle = styled.section`
     /* hover effects */
     .text::after {
       content: 'view project \f178';
+      opacity: 1;
     }
     .dark {
       box-shadow: 0 0 38px rgba(0, 0, 0, 0.8), 0 0 12px rgba(0, 0, 0, 0.8);
