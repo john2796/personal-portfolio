@@ -5,6 +5,8 @@ import HeaderContainer from './components/main-header/HeaderContainer';
 import Grid from './components/grid/Grid';
 import About from './components/about/About';
 import ProjectContainer from './components/projects/ProjectContainer';
+import BlueCircles from './components/main-header/BlueCircles';
+import Footer from './components/footer/Footer';
 
 const App = () => (
   <AppStyle className="app">
@@ -17,6 +19,8 @@ const App = () => (
     - [] Add footer section
     - [] Add responsive
      */}
+    <BlueCircles />
+    <Footer />
   </AppStyle>
 );
 

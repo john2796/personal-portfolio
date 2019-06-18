@@ -1,5 +1,5 @@
 import React from 'react';
-import { BlueCircle } from './HeaderContainerStyle';
+import { BlueCircle } from '../../AppStyle';
 
 const BlueCircles = () => (
   <>

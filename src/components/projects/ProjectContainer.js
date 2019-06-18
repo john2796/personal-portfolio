@@ -7,6 +7,7 @@ import { projectsData } from './ProjectData';
 // images --->
 import bookImg from '../../assets/js-book-img.jpg';
 import ProjectCard from './ProjectCard';
+import BlueCircles from '../main-header/BlueCircles';
 
 const ProjectContainer = () => {
   const [projects, setProjects] = useState(projectsData);
@@ -25,11 +26,14 @@ const ProjectContainer = () => {
     <ProjectStyle className="container">
       {/* projets section
      Things todo :
-     - [] add red circles on project section
-    - [] add more blue circle
-    - [] link up project to their link
+    - [x] add more blue circle
+    - [x] link up project to their link
+    -[] add responsive after finishing the whole page
+    -[] change lorem ipsum text as well
      */}
+      <BlueCircles />
       <div className="project-flex">
+        <BlueCircles />
         {/* left side ----> */}
         <img className="bookImg" src={bookImg} alt="html/css & js book" />
         {/* right side content -----> */}

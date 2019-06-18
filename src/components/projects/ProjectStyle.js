@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const ProjectStyle = styled.section`
   /* project above content */
+  /* for bluecircles */
+  position: relative;
   .project-flex {
     display: flex;
     align-items: center;
@@ -35,6 +37,7 @@ export const ProjectStyle = styled.section`
     width: 39.33333333%;
     cursor: pointer;
     position: relative;
+    height: 100%;
     img {
       height: 310px;
       object-fit: cover;
