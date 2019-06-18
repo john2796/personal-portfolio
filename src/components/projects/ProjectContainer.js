@@ -2,60 +2,12 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState } from 'react';
 import { ProjectStyle } from './ProjectStyle';
+import { projectsData } from './ProjectData';
 
 // images --->
 import bookImg from '../../assets/js-book-img.jpg';
-import project1 from '../../assets/project_01.png';
-import project2 from '../../assets/project_02.png';
-import project3 from '../../assets/project_03.png';
-import project4 from '../../assets/project_04.png';
-import project5 from '../../assets/project_05.png';
-import project6 from '../../assets/project_06.png';
+import ProjectCard from './ProjectCard';
 
-const projectsData = [
-  {
-    title: 'Lad_',
-    sub: 'network',
-    img: project1,
-    id: 0,
-    hover: false,
-  },
-  {
-    title: 'Movie_',
-    sub: 'db',
-    img: project2,
-    id: 1,
-    hover: false,
-  },
-  {
-    title: 'LA_',
-    sub: 'expert',
-    img: project3,
-    id: 2,
-    hover: false,
-  },
-  {
-    title: 'Soul_',
-    sub: 'food',
-    img: project4,
-    id: 3,
-    hover: false,
-  },
-  {
-    title: 'Insta_',
-    sub: 'clone',
-    img: project5,
-    id: 4,
-    hover: false,
-  },
-  {
-    title: 'Tool_',
-    sub: 'rent',
-    img: project6,
-    id: 5,
-    hover: false,
-  },
-];
 const ProjectContainer = () => {
   const [projects, setProjects] = useState(projectsData);
 
@@ -73,11 +25,9 @@ const ProjectContainer = () => {
     <ProjectStyle className="container">
       {/* projets section
      Things todo :
-     - [x] connect style-components to this component
-     - [x] upload images -> for projects
-     - [] add content on the right side use lorem-ipsum for now
-     - [\ add styling
-     - [] add more blue circle
+     - [] add red circles on project section
+    - [] add more blue circle
+    - [] link up project to their link
      */}
       <div className="project-flex">
         {/* left side ----> */}
@@ -101,7 +51,6 @@ const ProjectContainer = () => {
           <span className="color">:</span>
         </h3>
       </div>
-
       {/* PROJECTS */}
       <div className="projectCard-wrap container">
         {projects.map((item, index) => (
@@ -116,23 +65,5 @@ const ProjectContainer = () => {
     </ProjectStyle>
   );
 };
-
-const ProjectCard = ({ setHoverHandler, disableHoverHandler, item }) => (
-  <div className="project-card" onMouseEnter={setHoverHandler} onMouseLeave={disableHoverHandler}>
-    <img className={`${item.hover && 'dark'}`} src={item.img} alt="ladnetwork" />
-    <h3 className={`card-title ${item.hover && 'text'}`}>
-      {item.title}
-      <br />
-      {item.sub}
-    </h3>
-
-    <a
-      href="https://miranda-usemytools.netlify.com/"
-      target="_blank"
-      className="link"
-      rel="noopener noreferrer"
-    />
-  </div>
-);
 
 export default ProjectContainer;

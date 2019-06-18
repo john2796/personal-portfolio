@@ -28,7 +28,7 @@ export const ProjectStyle = styled.section`
     display: flex;
     margin-top: 250px;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   /* project cards --------------> */
   .project-card {
@@ -38,7 +38,7 @@ export const ProjectStyle = styled.section`
     img {
       height: 310px;
       object-fit: cover;
-      opacity: 0.6;
+      /* opacity: 0.8;  only add it to white images*/
       display: block;
       transition: all 0.4s ease;
       box-shadow: 0 0 38px rgba(0, 0, 0, 0.8), 0 0 12px rgba(0, 0, 0, 0.8);
@@ -58,17 +58,17 @@ export const ProjectStyle = styled.section`
       content: '';
       font-family: 'Inconsolata', monospace;
       z-index: 1;
-      transform: rotate(90deg);
       font-size: 16px;
       width: 234px;
       height: 50%;
       background-color: rgba(217, 217, 217, 0.4);
       position: absolute;
-      top: -200px;
-      right: -25px;
       text-align: center;
       font-family: 'FontAwesome';
       opacity: 0.5;
+      /* transform: rotate(90deg);
+      top: -200px;
+      right: -25px; */
     }
 
     a.link {
@@ -80,6 +80,7 @@ export const ProjectStyle = styled.section`
       z-index: 10;
       width: 100%;
     }
+
     /* hover effects */
     .text::after {
       content: 'view project \f178';
@@ -90,5 +91,39 @@ export const ProjectStyle = styled.section`
       opacity: 0.2;
       z-index: 1;
     }
+  }
+  /* Project card add margin spacing  && card hover white style */
+  /* view project style  */
+  .card-0 .card-title:after,
+  .card-2 .card-title:after,
+  .card-4 .card-title:after {
+    transform: rotate(90deg);
+    top: -200px;
+    right: -25px;
+  }
+  .card-1 .card-title:after,
+  .card-3 .card-title:after,
+  .card-5 .card-title:after {
+    top: -182px;
+    left: -85px;
+    right: 0;
+  }
+  /* position card */
+  .card-1 {
+    margin-top: -300px;
+  }
+  .card-3,
+  .card-5 {
+    margin-top: -150px;
+  }
+
+  .card-2,
+  .card-4 {
+    margin-top: 150px;
+  }
+  /* darken image of white bg */
+  .card-4 img,
+  .card-5 img {
+    opacity: 0.8;
   }
 `;
