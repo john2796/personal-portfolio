@@ -15,7 +15,7 @@ const App = () => (
     <About />
     <ProjectContainer />
     {/* things todo
-    - [] Work on Featured works / Projects section:
+    - [x] Work on Featured works / Projects section:
     - [] Add footer section
     - [] Add responsive
      */}
