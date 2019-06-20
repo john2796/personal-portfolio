@@ -9,7 +9,7 @@ import BlueCircles from './components/main-header/BlueCircles';
 import Footer from './components/footer/Footer';
 
 // things todo :
-// -[] Add responsive
+// -[] Add responsive 50% done
 // -[] Replace bad images
 // -[] remove side social anchor when it get's down to smaller device
 // -[] add social nav in the footer..

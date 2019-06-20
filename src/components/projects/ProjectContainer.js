@@ -52,7 +52,7 @@ const ProjectContainer = () => {
             Featured_
             <br />
             works
-            <span className="color">:</span>
+            <span className="colon">:</span>
           </h3>
         </div>
       </div>

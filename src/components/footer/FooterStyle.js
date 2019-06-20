@@ -21,13 +21,12 @@ export const FooterStyle = styled.div`
       margin-bottom: 75px;
       color: #1f1f1f;
       margin-left: -7px;
-      @media (max-width: 991px) {
-        font-size: 200px;
-        line-height: 200px;
+      @media (max-width: 1199px) {
+        font-size: 300px;
+        line-height: 300px;
       }
-      @media (max-width: 600px) {
-        font-size: 100px;
-        line-height: 100px;
+      @media (max-width: 991px) {
+        display: none;
       }
     }
   }

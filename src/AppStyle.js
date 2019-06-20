@@ -31,6 +31,10 @@ export const AppStyle = styled.div`
       font-size: 145px;
       line-height: 160px;
     }
+    @media (max-width: 767px) {
+      font-size: 130px;
+      line-height: 125px;
+    }
     @media (max-width: 600px) {
       font-size: 100px;
       line-height: 115px;

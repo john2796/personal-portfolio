@@ -56,6 +56,12 @@ export const ProjectStyle = styled.section`
     margin-top: 250px;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
+    @media (max-width: 991px) {
+      margin: 0 auto;
+      margin-top: 100px;
+      justify-content: center;
+    }
   }
   /* project cards --------------> */
   .project-card {
@@ -63,6 +69,9 @@ export const ProjectStyle = styled.section`
     cursor: pointer;
     position: relative;
     height: 100%;
+    @media (max-width: 991px) {
+      width: 100%;
+    }
     img {
       min-width: 340px;
       max-width: 340px;
@@ -71,6 +80,9 @@ export const ProjectStyle = styled.section`
       display: block;
       transition: all 0.4s ease;
       box-shadow: 0 0 38px rgba(0, 0, 0, 0.8), 0 0 12px rgba(0, 0, 0, 0.8);
+      @media (max-width: 991px) {
+        max-width: 100%;
+      }
     }
 
     .card-title {
@@ -151,5 +163,20 @@ export const ProjectStyle = styled.section`
   .card-4 img,
   .card-5 img {
     opacity: 0.8;
+  }
+  /* reset on smaller size  */
+  @media (max-width: 991px) {
+    .card-0,
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4,
+    .card-5 {
+      margin: 0;
+      right: 0;
+      left: 0;
+      top: 0;
+      bottom: 0;
+    }
   }
 `;

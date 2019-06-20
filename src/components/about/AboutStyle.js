@@ -5,6 +5,9 @@ export const AboutStyle = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 300px 0;
+  @media (max-width: 991px) {
+    padding: 200px 0;
+  }
   /* ABOUT left side content ---> */
   .about-content {
     width: 45%;

@@ -138,11 +138,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* ---fix for hr scroll bar */
-html,
-body {
-  overflow-x: hidden;
-}
 
 body {
   background-color: var(--black);

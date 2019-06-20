@@ -11,7 +11,7 @@ const Title = () => (
         ign
       </h3>
     </div>
-    <div className="name-wrapper">
+    <div className="name-wrapper container">
       <h1>
         Hello
         <span className="circle">.</span>

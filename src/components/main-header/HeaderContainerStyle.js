@@ -25,11 +25,11 @@ export const TitleContainer = styled.div`
   .text-top {
     position: absolute;
     left: 0px;
-    top: -100px;
+    top: 10px;
     color: #1f1f1f;
     text-transform: uppercase;
     z-index: -100;
-    overflow: hidden;
+    width: 100%;
     @media (max-width: 600px) {
       top: 100px;
     }
@@ -40,17 +40,12 @@ export const TitleContainer = styled.div`
       margin-bottom: 75px;
       color: #1f1f1f;
       margin-left: -7px;
-      @media (max-width: 991px) {
+      @media (max-width: 1199px) {
         font-size: 300px;
         line-height: 300px;
       }
-      @media (max-width: 867px) {
-        font-size: 250px;
-        line-height: 250px;
-      }
-      @media (max-width: 600px) {
-        font-size: 200px;
-        line-height: 200px;
+      @media (max-width: 991px) {
+        display: none;
       }
     }
   }
@@ -60,21 +55,28 @@ export const TitleContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     height: auto;
+    width: 100%;
     @media (max-width: 991px) {
       flex-direction: column;
     }
     h1 {
       order: 2;
+      @media (max-width: 1199px) {
+        order: -1;
+      }
       @media (max-width: 991px) {
         order: -1;
+        width: 100%;
       }
     }
   }
   .fs-web {
     transform: rotate(-90deg);
     height: 100%;
-    @media (max-width: 991px) {
+    @media (max-width: 1199px) {
       transform: inherit;
+    }
+    @media (max-width: 991px) {
       width: 100%;
     }
   }
@@ -97,7 +99,8 @@ export const SocialContainer = styled.div`
     position: fixed;
     z-index: 99;
     bottom: 112px;
-    right: -104px;
+    /* right: -104px; */
+    left: -72px;
 
     a {
       transform: rotate(-90deg);
