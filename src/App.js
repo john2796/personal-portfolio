@@ -11,6 +11,9 @@ import Footer from './components/footer/Footer';
 // things todo :
 // -[] Add responsive
 // -[] Replace bad images
+// -[] remove side social anchor when it get's down to smaller device
+// -[] add social nav in the footer..
+// -[] remove redux and router not gonna be using here
 const App = () => (
   <AppStyle className="app">
     <Grid />

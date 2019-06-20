@@ -31,28 +31,30 @@ const ProjectContainer = () => {
     -[] add responsive after finishing the whole page
     -[] change lorem ipsum text as well
      */}
-      <div className="project-flex">
-        <BlueCircles />
-        {/* left side ----> */}
-        <img className="bookImg" src={bookImg} alt="html/css & js book" />
-        {/* right side content -----> */}
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad provident ex porro ratione,
-          laborum ducimus. Magnam dolorem, dignissimos, inventore in veniam sunt beatae nostrum
-          eaque nesciunt ut eligendi soluta facere harum asperiores ipsum ab optio? Cupiditate,
-          doloremque.
-        </p>
-      </div>
+      <div className="featured-works-bookImg-p-wrapper">
+        <div className="project-flex">
+          <BlueCircles />
+          {/* left side ----> */}
+          <img className="bookImg" src={bookImg} alt="html/css & js book" />
+          {/* right side content -----> */}
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad provident ex porro ratione,
+            laborum ducimus. Magnam dolorem, dignissimos, inventore in veniam sunt beatae nostrum
+            eaque nesciunt ut eligendi soluta facere harum asperiores ipsum ab optio? Cupiditate,
+            doloremque.
+          </p>
+        </div>
 
-      {/* Featured works ---> */}
-      <div className="featured-flex">
-        {/* featured title left side ----> */}
-        <h3>
-          Featured_
-          <br />
-          works
-          <span className="color">:</span>
-        </h3>
+        {/* Featured works ---> */}
+        <div className="featured-flex">
+          {/* featured title left side ----> */}
+          <h3>
+            Featured_
+            <br />
+            works
+            <span className="color">:</span>
+          </h3>
+        </div>
       </div>
       {/* PROJECTS */}
       <div className="projectCard-wrap container">

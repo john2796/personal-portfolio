@@ -20,6 +20,7 @@ export const TitleContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  position: relative;
   /* big text ----> */
   .text-top {
     position: absolute;
@@ -28,7 +29,10 @@ export const TitleContainer = styled.div`
     color: #1f1f1f;
     text-transform: uppercase;
     z-index: -100;
-
+    overflow: hidden;
+    @media (max-width: 600px) {
+      top: 100px;
+    }
     h3 {
       font-size: 400px;
       line-height: 400px;
@@ -36,6 +40,18 @@ export const TitleContainer = styled.div`
       margin-bottom: 75px;
       color: #1f1f1f;
       margin-left: -7px;
+      @media (max-width: 991px) {
+        font-size: 300px;
+        line-height: 300px;
+      }
+      @media (max-width: 867px) {
+        font-size: 250px;
+        line-height: 250px;
+      }
+      @media (max-width: 600px) {
+        font-size: 200px;
+        line-height: 200px;
+      }
     }
   }
   /* title wrapp */
@@ -44,14 +60,23 @@ export const TitleContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     height: auto;
-    position: relative;
+    @media (max-width: 991px) {
+      flex-direction: column;
+    }
     h1 {
       order: 2;
+      @media (max-width: 991px) {
+        order: -1;
+      }
     }
   }
   .fs-web {
     transform: rotate(-90deg);
     height: 100%;
+    @media (max-width: 991px) {
+      transform: inherit;
+      width: 100%;
+    }
   }
 `;
 

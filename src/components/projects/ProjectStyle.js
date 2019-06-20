@@ -4,6 +4,31 @@ export const ProjectStyle = styled.section`
   /* project above content */
   /* for bluecircles */
   position: relative;
+  .featured-works-bookImg-p-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* ----- MEDIA QUERIES -------- */
+    @media (max-width: 991px) {
+      .featured-text {
+        order: -1;
+      }
+      .project-flex {
+        order: 1;
+        flex-direction: column;
+        .bookImg {
+          max-width: 100%;
+          width: 100%;
+          height: 500px;
+          max-height: 100%;
+        }
+        p {
+          align-self: flex-start;
+          width: 100%;
+          margin-top: 100px;
+        }
+      }
+    }
+  }
   .project-flex {
     display: flex;
     align-items: center;

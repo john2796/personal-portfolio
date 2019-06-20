@@ -1,5 +1,6 @@
 import React from 'react';
 import { FooterStyle } from './FooterStyle';
+import Socials from '../main-header/Socials';
 
 // Things todo :
 const Footer = () => (
@@ -13,6 +14,7 @@ const Footer = () => (
     </div>
     <h2>
       I'm always interested about cool stuff. Are you minding a project?
+      <br />
       <span className="color">
         <a
           href="mailto:jbmiranda22796@gmail.com"
@@ -24,6 +26,9 @@ const Footer = () => (
         </a>
       </span>
     </h2>
+
+    {/* -----> SOCIALS */}
+    <Socials />
   </FooterStyle>
 );
 export default Footer;

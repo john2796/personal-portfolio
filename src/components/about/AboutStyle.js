@@ -8,6 +8,9 @@ export const AboutStyle = styled.div`
   /* ABOUT left side content ---> */
   .about-content {
     width: 45%;
+    @media (max-width: 991px) {
+      width: 90%;
+    }
   }
 
   /* Skills right side ----> */
@@ -20,7 +23,9 @@ export const AboutStyle = styled.div`
     box-shadow: 0 0 38px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 0, 0, 0.22);
     z-index: 1;
     align-self: flex-end;
-
+    @media (max-width: 991px) {
+      display: none;
+    }
     .skills-ul {
       display: flex;
       flex-direction: column;

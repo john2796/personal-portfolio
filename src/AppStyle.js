@@ -109,17 +109,8 @@ export const AppStyle = styled.div`
   /*                CONTAINER
 /*-------------------------------------------------*/
   .container {
-    max-width: 83%;
+    max-width: 1199px;
+    width: 83%;
     margin: 0 auto;
-    @media (max-width: 1199px) {
-      max-width: 93%;
-      border: 1px solid red;
-    }
-    @media (max-width: 991px) {
-      max-width: 73%;
-    }
-    @media (max-width: 767px) {
-      max-width: 93%;
-    }
   }
 `;

@@ -10,6 +10,9 @@ export const FooterStyle = styled.div`
     color: #1f1f1f;
     text-transform: uppercase;
     z-index: -100;
+    @media (max-width: 991px) {
+      top: 200px;
+    }
 
     h3 {
       font-size: 400px;
@@ -18,6 +21,14 @@ export const FooterStyle = styled.div`
       margin-bottom: 75px;
       color: #1f1f1f;
       margin-left: -7px;
+      @media (max-width: 991px) {
+        font-size: 200px;
+        line-height: 200px;
+      }
+      @media (max-width: 600px) {
+        font-size: 100px;
+        line-height: 100px;
+      }
     }
   }
   h2 {
