@@ -9,10 +9,22 @@ export const HeaderContainerStyle = styled.div`
     height: 80px;
     margin: 20px;
   }
+`;
+
+/*-------------------------------------------------*/
+/*                TITLE
+/*-------------------------------------------------*/
+
+export const TitleContainer = styled.div`
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* big text ----> */
   .text-top {
     position: absolute;
     left: 0px;
-    top: 100px;
+    top: -100px;
     color: #1f1f1f;
     text-transform: uppercase;
     z-index: -100;
@@ -26,22 +38,13 @@ export const HeaderContainerStyle = styled.div`
       margin-left: -7px;
     }
   }
-`;
-
-/*-------------------------------------------------*/
-/*                TITLE
-/*-------------------------------------------------*/
-
-export const TitleContainer = styled.div`
-  border: 1px solid pink;
-  height: 100vh;
-  display: flex;
-  align-items: center;
+  /* title wrapp */
   .name-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: auto;
+    position: relative;
     h1 {
       order: 2;
     }

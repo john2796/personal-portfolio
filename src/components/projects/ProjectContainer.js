@@ -31,7 +31,6 @@ const ProjectContainer = () => {
     -[] add responsive after finishing the whole page
     -[] change lorem ipsum text as well
      */}
-      <BlueCircles />
       <div className="project-flex">
         <BlueCircles />
         {/* left side ----> */}

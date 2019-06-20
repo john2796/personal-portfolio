@@ -11,15 +11,7 @@ const HeaderContainer = () => (
     <p className="logo">
       <img src={logo} alt="JBM" />
     </p>
-    <div className="container">
-      {/* =======> big text in the background */}
-      <div className="text-top">
-        <h3>
-          des_
-          <br />
-          ign
-        </h3>
-      </div>
+    <div className="container ">
       {/* ========> Title */}
       <Title />
       {/* ==============> BLUECIRCLE */}

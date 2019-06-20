@@ -7,9 +7,9 @@ export const ProjectStyle = styled.section`
   .project-flex {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     .bookImg {
-      max-width: 100%;
+      max-width: 500px;
       height: auto;
       display: block;
       box-shadow: 0 0 38px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 0, 0, 0.22);
@@ -39,9 +39,10 @@ export const ProjectStyle = styled.section`
     position: relative;
     height: 100%;
     img {
+      min-width: 340px;
+      max-width: 340px;
       height: 310px;
       object-fit: cover;
-      /* opacity: 0.8;  only add it to white images*/
       display: block;
       transition: all 0.4s ease;
       box-shadow: 0 0 38px rgba(0, 0, 0, 0.8), 0 0 12px rgba(0, 0, 0, 0.8);
@@ -69,9 +70,6 @@ export const ProjectStyle = styled.section`
       text-align: center;
       font-family: 'FontAwesome';
       opacity: 0.5;
-      /* transform: rotate(90deg);
-      top: -200px;
-      right: -25px; */
     }
 
     a.link {
@@ -102,7 +100,7 @@ export const ProjectStyle = styled.section`
   .card-4 .card-title:after {
     transform: rotate(90deg);
     top: -200px;
-    right: -25px;
+    left: 98px;
   }
   .card-1 .card-title:after,
   .card-3 .card-title:after,

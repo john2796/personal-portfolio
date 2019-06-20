@@ -4,7 +4,7 @@ export const AboutStyle = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 350px;
+  padding: 300px 0;
   /* ABOUT left side content ---> */
   .about-content {
     width: 45%;

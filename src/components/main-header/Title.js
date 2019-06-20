@@ -4,6 +4,14 @@ import { TitleContainer } from './HeaderContainerStyle';
 const Title = () => (
   <TitleContainer>
     <div className="name-wrapper">
+      {/* =======> big text in the background */}
+      <div className="text-top">
+        <h3>
+          des_
+          <br />
+          ign
+        </h3>
+      </div>
       <h1>
         Hello
         <span className="circle">.</span>

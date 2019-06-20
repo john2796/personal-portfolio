@@ -8,17 +8,15 @@ import ProjectContainer from './components/projects/ProjectContainer';
 import BlueCircles from './components/main-header/BlueCircles';
 import Footer from './components/footer/Footer';
 
+// things todo :
+// -[] Add responsive
+// -[] Replace bad images
 const App = () => (
   <AppStyle className="app">
     <Grid />
     <HeaderContainer />
     <About />
     <ProjectContainer />
-    {/* things todo
-    - [x] Work on Featured works / Projects section:
-    - [] Add footer section
-    - [] Add responsive
-     */}
     <BlueCircles />
     <Footer />
   </AppStyle>

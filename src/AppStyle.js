@@ -27,41 +27,30 @@ export const AppStyle = styled.div`
     font-weight: 700;
     letter-spacing: 2px;
     z-index: 23;
-    @media (max-width: 1199px) {
-    }
     @media (max-width: 991px) {
       font-size: 145px;
       line-height: 160px;
     }
-    @media (max-width: 767px) {
-    }
     @media (max-width: 600px) {
-    }
-    @media (max-width: 480px) {
-    }
-    @media (max-width: 380px) {
+      font-size: 100px;
+      line-height: 115px;
     }
   }
 
-  h2 {
-    font-size: 100px;
-    line-height: 120px;
+  h2,
+  .footer-a {
+    font-size: 120px;
+    line-height: 150px;
     font-weight: 700;
     margin-bottom: 75px;
-    /* @media (max-width: 1199px) {
-    } */
+    @media (max-width: 1199px) {
+      font-size: 100px;
+      line-height: 120px;
+    }
     @media (max-width: 991px) {
       font-size: 80px;
       line-height: 100px;
     }
-    /* @media (max-width: 767px) {
-    }
-    @media (max-width: 600px) {
-    }
-    @media (max-width: 480px) {
-    }
-    @media (max-width: 380px) {
-    } */
   }
   h4 {
     font-size: 40px;
@@ -76,19 +65,6 @@ export const AppStyle = styled.div`
     font-size: 18px;
     line-height: 38px;
     color: rgba(255, 255, 255, 0.8);
-    /* @media (max-width: 1199px) {
-    } */
-    @media (max-width: 991px) {
-      line-height: 28px;
-    }
-    /* @media (max-width: 767px) {
-    }
-    @media (max-width: 600px) {
-    }
-    @media (max-width: 480px) {
-    }
-    @media (max-width: 380px) {
-    } */
   }
   ul {
     list-style: none;
@@ -106,10 +82,18 @@ export const AppStyle = styled.div`
   }
 
   h3 {
-    font-size: 100px;
-    line-height: 120px;
+    font-size: 120px;
+    line-height: 150px;
     font-weight: 700;
     margin-bottom: 75px;
+    @media (max-width: 1199px) {
+      font-size: 100px;
+      line-height: 120px;
+    }
+    @media (max-width: 991px) {
+      font-size: 80px;
+      line-height: 100px;
+    }
   }
   /*-------------------------------------------------*/
   /*              RANDOM_GLOBAL  
@@ -121,12 +105,21 @@ export const AppStyle = styled.div`
   .colon {
     color: #ff5252;
   }
-
   /*-------------------------------------------------*/
   /*                CONTAINER
 /*-------------------------------------------------*/
   .container {
-    max-width: 87%;
+    max-width: 83%;
     margin: 0 auto;
+    @media (max-width: 1199px) {
+      max-width: 93%;
+      border: 1px solid red;
+    }
+    @media (max-width: 991px) {
+      max-width: 73%;
+    }
+    @media (max-width: 767px) {
+      max-width: 93%;
+    }
   }
 `;
