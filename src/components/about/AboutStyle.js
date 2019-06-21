@@ -11,6 +11,7 @@ export const AboutStyle = styled.div`
   /* ABOUT left side content ---> */
   .about-content {
     width: 45%;
+    position: relative;
     @media (max-width: 991px) {
       width: 90%;
     }

@@ -30,10 +30,10 @@ const ProjectContainer = () => {
     - [x] link up project to their link
     -[] add responsive after finishing the whole page
     -[] change lorem ipsum text as well
+    -[] have scroll to scroll more
      */}
       <div className="featured-works-bookImg-p-wrapper">
         <div className="project-flex">
-          <BlueCircles />
           {/* left side ----> */}
           <img className="bookImg" src={bookImg} alt="html/css & js book" />
           {/* right side content -----> */}
@@ -67,6 +67,7 @@ const ProjectContainer = () => {
           />
         ))}
       </div>
+      <BlueCircles />
     </ProjectStyle>
   );
 };

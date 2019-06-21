@@ -28,7 +28,7 @@ const Footer = () => (
     </h2>
 
     {/* -----> SOCIALS */}
-    <Socials />
+    <Socials className="footer-nav" />
   </FooterStyle>
 );
 export default Footer;

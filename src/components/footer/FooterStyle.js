@@ -41,4 +41,19 @@ export const FooterStyle = styled.div`
       }
     }
   }
+  /* navigation footer */
+  .footer-nav {
+    display: block;
+    position: initial;
+    z-index: 99;
+
+    ul {
+      transform: initial;
+      display: flex;
+      flex-wrap: wrap;
+      li > a {
+        line-height: 2;
+      }
+    }
+  }
 `;

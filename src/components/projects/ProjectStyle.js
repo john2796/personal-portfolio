@@ -94,6 +94,7 @@ export const ProjectStyle = styled.section`
       position: relative;
       z-index: 4;
       margin-left: 25px;
+      margin-bottom: 0;
     }
     .card-title:after {
       content: '';
@@ -177,6 +178,7 @@ export const ProjectStyle = styled.section`
       left: 0;
       top: 0;
       bottom: 0;
+      margin-bottom: 100px;
     }
   }
 `;

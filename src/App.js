@@ -9,11 +9,12 @@ import BlueCircles from './components/main-header/BlueCircles';
 import Footer from './components/footer/Footer';
 
 // things todo :
-// -[] Add responsive 50% done
+// -[] complete udemy course about hooks first then comback
+// -[] Hide side nav when you get half way
 // -[] Replace bad images
-// -[] remove side social anchor when it get's down to smaller device
-// -[] add social nav in the footer..
-// -[] remove redux and router not gonna be using here
+// -[] fix ImgBook image looks weird on 100%;
+// -[] Add github links to the project
+// -[] Add responsive 50% done
 const App = () => (
   <AppStyle className="app">
     <Grid />

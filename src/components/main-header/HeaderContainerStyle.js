@@ -44,7 +44,7 @@ export const TitleContainer = styled.div`
         font-size: 300px;
         line-height: 300px;
       }
-      @media (max-width: 991px) {
+      @media (max-width: 800px) {
         display: none;
       }
     }
@@ -90,7 +90,9 @@ export const SocialContainer = styled.div`
   right: -210px;
   top: 235px;
   z-index: 99;
-
+  @media (max-width: 767px) {
+    display: none;
+  }
   ul {
     transform: rotate(-90deg);
   }
@@ -99,8 +101,13 @@ export const SocialContainer = styled.div`
     position: fixed;
     z-index: 99;
     bottom: 112px;
-    /* right: -104px; */
     left: -72px;
+    @media (max-width: 767px) {
+      bottom: initial;
+      left: initial;
+      top: 103px;
+      right: -116px;
+    }
 
     a {
       transform: rotate(-90deg);
