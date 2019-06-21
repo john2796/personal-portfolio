@@ -24,14 +24,6 @@ const ProjectContainer = () => {
   };
   return (
     <ProjectStyle className="container">
-      {/* projets section
-     Things todo :
-    - [x] add more blue circle
-    - [x] link up project to their link
-    -[] add responsive after finishing the whole page
-    -[] change lorem ipsum text as well
-    -[] have scroll to scroll more
-     */}
       <div className="featured-works-bookImg-p-wrapper">
         <div className="project-flex">
           {/* left side ----> */}

@@ -13,6 +13,8 @@ import Footer from './components/footer/Footer';
 // -[] Add github links to the project
 // -[] center some image project section
 // -[] decide what to do with text that has white background and white text
+// -[] connect social media link and decide what todo with my name on left side.
+// -[] Update react icon to be same as logo
 const App = () => (
   <AppStyle className="app">
     <Grid />
