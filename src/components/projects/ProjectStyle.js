@@ -72,10 +72,11 @@ export const ProjectStyle = styled.section`
     @media (max-width: 991px) {
       width: 100%;
     }
+
     img {
       min-width: 340px;
       max-width: 340px;
-      height: 310px;
+      min-height: 310px;
       object-fit: cover;
       display: block;
       transition: all 0.4s ease;
@@ -95,6 +96,9 @@ export const ProjectStyle = styled.section`
       z-index: 4;
       margin-left: 25px;
       margin-bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+      display: inline-block;
+      padding: 5px;
     }
     .card-title:after {
       content: '';
@@ -139,6 +143,12 @@ export const ProjectStyle = styled.section`
     transform: rotate(90deg);
     top: -200px;
     left: 98px;
+    @media (max-width: 991px) {
+      top: -182px;
+      left: -85px;
+      right: 0;
+      transform: initial;
+    }
   }
   .card-1 .card-title:after,
   .card-3 .card-title:after,
@@ -163,9 +173,9 @@ export const ProjectStyle = styled.section`
   /* darken image of white bg */
   .card-4 img,
   .card-5 img {
-    opacity: 0.8;
+    /* opacity: 0.8; */
   }
-  /* reset on smaller size  */
+  /* reset aligning on smaller size so i can use display block  */
   @media (max-width: 991px) {
     .card-0,
     .card-1,
