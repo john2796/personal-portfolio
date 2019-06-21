@@ -10,11 +10,9 @@ import Footer from './components/footer/Footer';
 
 // things todo :
 // -[] complete udemy course about hooks first then comback
-// -[] Hide side nav when you get half way
-// -[] Replace bad images
-// -[] fix ImgBook image looks weird on 100%;
 // -[] Add github links to the project
-// -[] Add responsive 50% done
+// -[] center some image project section
+// -[] decide what to do with text that has white background and white text
 const App = () => (
   <AppStyle className="app">
     <Grid />
