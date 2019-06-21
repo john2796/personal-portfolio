@@ -16,10 +16,8 @@ export const ProjectStyle = styled.section`
         order: 1;
         flex-direction: column;
         .bookImg {
-          max-width: 100%;
           width: 100%;
-          height: 500px;
-          max-height: 100%;
+          min-height: 300px;
         }
         p {
           align-self: flex-start;
