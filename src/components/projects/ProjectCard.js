@@ -8,6 +8,11 @@ const ProjectCard = ({ setHoverHandler, disableHoverHandler, item }) => (
     onMouseEnter={setHoverHandler}
     onMouseLeave={disableHoverHandler}
   >
+    <span className="github-wrap">
+      <a href={item.github_link} target="_blank" rel="noopener noreferrer">
+        <i className="fa fa-github" aria-hidden="true" />
+      </a>
+    </span>
     <img className={`${item.hover && 'dark'}`} src={item.img} alt="ladnetwork" />
     <h3 className={`card-title ${item.hover && 'text'}`}>
       {item.title}
@@ -15,7 +20,7 @@ const ProjectCard = ({ setHoverHandler, disableHoverHandler, item }) => (
       {item.sub}
     </h3>
 
-    <a href={item.link} target="_blank" className="link" rel="noopener noreferrer" />
+    <a href={item.link} target="_blank" rel="noopener noreferrer" className="link" />
   </div>
 );
 ProjectCard.propTypes = {

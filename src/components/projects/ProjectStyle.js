@@ -54,7 +54,6 @@ export const ProjectStyle = styled.section`
     margin-top: 250px;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
     @media (max-width: 991px) {
       margin: 0 auto;
       margin-top: 100px;
@@ -94,7 +93,6 @@ export const ProjectStyle = styled.section`
       z-index: 4;
       margin-left: 25px;
       margin-bottom: 0;
-      background: rgba(0, 0, 0, 0.4);
       display: inline-block;
       padding: 5px;
     }
@@ -132,7 +130,15 @@ export const ProjectStyle = styled.section`
       opacity: 0.2;
       z-index: 1;
     }
-  }
+    /* --> Github Icon  */
+    .github-wrap a .fa-github {
+      font-size: 25px;
+      z-index: 99999;
+      position: relative;
+      padding: 10px;
+    }
+  } /* project-card ends here */
+
   /* Project card add margin spacing  && card hover white style */
   /* view project style  */
   .card-0 .card-title:after,
@@ -169,9 +175,10 @@ export const ProjectStyle = styled.section`
     margin-top: 150px;
   }
   /* darken image of white bg */
+  .card-0 img,
   .card-4 img,
   .card-5 img {
-    /* opacity: 0.8; */
+    opacity: 0.8;
   }
   /* reset aligning on smaller size so i can use display block  */
   @media (max-width: 991px) {

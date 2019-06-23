@@ -87,8 +87,8 @@ export const TitleContainer = styled.div`
 /*-------------------------------------------------*/
 export const SocialContainer = styled.div`
   position: fixed;
-  right: -210px;
-  top: 235px;
+  right: -110px;
+  top: 105px;
   z-index: 99;
   @media (max-width: 767px) {
     display: none;

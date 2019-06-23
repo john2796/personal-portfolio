@@ -9,16 +9,6 @@ const Socials = ({ className }) => (
     <ul>
       <li>
         <a
-          alt="facebook"
-          href="https://www.facebook.com/john.miranda.1401"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Facebook
-        </a>
-      </li>
-      <li>
-        <a
           alt="Linkedin"
           href="https://www.linkedin.com/in/johnbenedictmiranda/"
           target="_blank"
@@ -35,11 +25,6 @@ const Socials = ({ className }) => (
           rel="noopener noreferrer"
         >
           Github
-        </a>
-      </li>
-      <li>
-        <a alt=".." href="/#" target="_blank" rel="noopener noreferrer">
-          ChangeMe
         </a>
       </li>
       <li>

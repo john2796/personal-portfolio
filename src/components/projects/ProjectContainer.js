@@ -15,6 +15,7 @@ const ProjectContainer = () => {
   const setHoverHandler = (index) => {
     const updatedProjects = [...projects];
     updatedProjects[index].hover = true;
+    // const updatedProjects = projects.map(item => (item.id === index ? { ...item, hover: !item.hover } : item));
     setProjects(updatedProjects);
   };
   const disableHoverHandler = (index) => {

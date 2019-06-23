@@ -13,6 +13,7 @@ export const projectsData = [
     id: 0,
     hover: false,
     link: 'https://ladnetwork.netlify.com/',
+    github_link: 'https://github.com/labs11-ad-network',
   },
   {
     title: 'Movie_',
@@ -21,6 +22,7 @@ export const projectsData = [
     id: 1,
     hover: false,
     link: 'https://moviedb19.netlify.com/',
+    github_link: 'https://github.com/john2796/moviedb19',
   },
   {
     title: 'LA_',
@@ -29,6 +31,7 @@ export const projectsData = [
     id: 2,
     hover: false,
     link: 'https://miranda-realestate.netlify.com/',
+    github_link: 'https://github.com/john2796/portfolio-003-real-estate',
   },
   {
     title: 'Soul_',
@@ -37,6 +40,7 @@ export const projectsData = [
     id: 3,
     hover: false,
     link: 'https://miranda-restaurant.netlify.com/',
+    github_link: 'https://github.com/john2796/portfolio-restaurant-01',
   },
   {
     title: 'Insta_',
@@ -45,6 +49,7 @@ export const projectsData = [
     id: 4,
     hover: false,
     link: 'https://miranda-insta-clone.netlify.com/',
+    github_link: 'https://github.com/john2796/React-Insta-Clone-1',
   },
   {
     title: 'Tool_',
@@ -53,5 +58,6 @@ export const projectsData = [
     id: 5,
     hover: false,
     link: 'https://miranda-usemytools.netlify.com/',
+    github_link: 'https://github.com/use-my-tools/Front-End',
   },
 ];
