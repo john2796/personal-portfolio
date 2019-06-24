@@ -19,8 +19,8 @@ const ProjectCard = ({ setHoverHandler, disableHoverHandler, item }) => (
       <br />
       {item.sub}
     </h3>
-
     <a href={item.link} target="_blank" rel="noopener noreferrer" className="link" />
+    <p className={`project-desc ${item.hover && 'desc-hide'}`}>{item.desc}</p>
   </div>
 );
 ProjectCard.propTypes = {

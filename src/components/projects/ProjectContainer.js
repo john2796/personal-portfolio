@@ -15,7 +15,6 @@ const ProjectContainer = () => {
   const setHoverHandler = (index) => {
     const updatedProjects = [...projects];
     updatedProjects[index].hover = true;
-    // const updatedProjects = projects.map(item => (item.id === index ? { ...item, hover: !item.hover } : item));
     setProjects(updatedProjects);
   };
   const disableHoverHandler = (index) => {
@@ -31,10 +30,10 @@ const ProjectContainer = () => {
           <img className="bookImg" src={bookImg} alt="html/css & js book" />
           {/* right side content -----> */}
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad provident ex porro ratione,
-            laborum ducimus. Magnam dolorem, dignissimos, inventore in veniam sunt beatae nostrum
-            eaque nesciunt ut eligendi soluta facere harum asperiores ipsum ab optio? Cupiditate,
-            doloremque.
+            Here are a few selections of some of my best work as a web developer. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Placeat quibusdam cupiditate perferendis quod.
+            Consectetur itaque dicta ab pariatur aliquid minus, qui hic culpa autem. Voluptates cum
+            tempore odit natus?
           </p>
         </div>
 

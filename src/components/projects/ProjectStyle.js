@@ -18,10 +18,12 @@ export const ProjectStyle = styled.section`
         .bookImg {
           width: 100%;
           min-height: 300px;
+          max-height: 500px;
         }
         p {
           align-self: flex-start;
           width: 100%;
+          margin: 0 auto;
           margin-top: 100px;
         }
       }
@@ -91,7 +93,6 @@ export const ProjectStyle = styled.section`
       margin-top: -90px;
       position: relative;
       z-index: 4;
-      margin-left: 25px;
       margin-bottom: 0;
       display: inline-block;
       padding: 5px;

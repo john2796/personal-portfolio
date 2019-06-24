@@ -14,6 +14,8 @@ export const projectsData = [
     hover: false,
     link: 'https://ladnetwork.netlify.com/',
     github_link: 'https://github.com/labs11-ad-network',
+    desc:
+      'Lad Network is an ad network that lets an administrator create an array of ads and it gives them a serving script that allows the ads to render on another web page. It tracks ad impressions and click rates for each ad.',
   },
   {
     title: 'Movie_',
@@ -23,6 +25,8 @@ export const projectsData = [
     hover: false,
     link: 'https://moviedb19.netlify.com/',
     github_link: 'https://github.com/john2796/moviedb19',
+    desc:
+      'Moviedb is an app that allows users to browse, and stream their favorite tv shows. Built with react, this app gets data from the IMDB api, This was a personal project to test my skills and knowledge on apis, filters, links, routes redux.',
   },
   {
     title: 'LA_',
@@ -32,6 +36,8 @@ export const projectsData = [
     hover: false,
     link: 'https://miranda-realestate.netlify.com/',
     github_link: 'https://github.com/john2796/portfolio-003-real-estate',
+    desc:
+      'Los Angeles Experts is an app that allows users to browse house listings. This is one of my first side  project I built to practice my front-end development skills using React.js, React-Router, Redux.',
   },
   {
     title: 'Soul_',
@@ -41,6 +47,8 @@ export const projectsData = [
     hover: false,
     link: 'https://miranda-restaurant.netlify.com/',
     github_link: 'https://github.com/john2796/portfolio-restaurant-01',
+    desc:
+      'Soul food is an app that allows users to browse restaurant food menu.This project is built with react to showcase my passion for food as well as my visual art.',
   },
   {
     title: 'Insta_',
@@ -50,6 +58,8 @@ export const projectsData = [
     hover: false,
     link: 'https://miranda-insta-clone.netlify.com/',
     github_link: 'https://github.com/john2796/React-Insta-Clone-1',
+    desc:
+      'A school assignment , The Goal was to create  an Insta clone app that allows users to login, like posts and add comments using react.js , redux and node/express.',
   },
   {
     title: 'Tool_',
@@ -59,5 +69,7 @@ export const projectsData = [
     hover: false,
     link: 'https://miranda-usemytools.netlify.com/',
     github_link: 'https://github.com/use-my-tools/Front-End',
+    desc:
+      'Tool Rent is an app that allows users to rent their neighbor tool ,set up items they have - anything from a shovels to power washers to tile saws. User will be able to Create, Read, Update and Delete data. A 2nd user can log in and see items that users have available and request to borrow',
   },
 ];
