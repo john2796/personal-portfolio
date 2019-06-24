@@ -22,7 +22,7 @@ const ProjectContainer = lazy(() => import('./components/projects/ProjectContain
 // -[x] center some image project section
 // -[x] decide what to do with text that has white background and white text
 const App = () => (
-  <Suspense fallback={<Loading />} maxDuration={1000}>
+  <Suspense fallback={<Loading />}>
     <AppStyle className="app">
       <Grid />
       <HeaderContainer />
