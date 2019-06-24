@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { AppStyle } from './AppStyle';
 
 import HeaderContainer from './components/main-header/HeaderContainer';
 import Grid from './components/grid/Grid';
 import About from './components/about/About';
-import ProjectContainer from './components/projects/ProjectContainer';
 import BlueCircles from './components/main-header/BlueCircles';
 import Footer from './components/footer/Footer';
+import Loading from './components/spinner/Loading';
+
+const ProjectContainer = lazy(() => import('./components/projects/ProjectContainer'));
 // things todo :
+// -[] Add delay to suspense fallback
 // -[] Add smooth scroll (do this last)
 // -[] Add a loading
 // -[] Add a way to see resume
@@ -19,14 +22,16 @@ import Footer from './components/footer/Footer';
 // -[x] center some image project section
 // -[x] decide what to do with text that has white background and white text
 const App = () => (
-  <AppStyle className="app">
-    <Grid />
-    <HeaderContainer />
-    <About />
-    <ProjectContainer />
-    <BlueCircles />
-    <Footer />
-  </AppStyle>
+  <Suspense fallback={<Loading />} maxDuration={1000}>
+    <AppStyle className="app">
+      <Grid />
+      <HeaderContainer />
+      <About />
+      <ProjectContainer />
+      <BlueCircles />
+      <Footer />
+    </AppStyle>
+  </Suspense>
 );
 
-export default App;
+export default React.memo(App);

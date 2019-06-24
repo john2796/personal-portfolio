@@ -75,4 +75,4 @@ const ProjectContainer = () => {
   );
 };
 
-export default ProjectContainer;
+export default React.memo(ProjectContainer);
