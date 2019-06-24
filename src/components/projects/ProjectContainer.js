@@ -23,44 +23,55 @@ const ProjectContainer = () => {
     setProjects(updatedProjects);
   };
   return (
-    <ProjectStyle className="container">
-      <div className="featured-works-bookImg-p-wrapper">
-        <div className="project-flex">
-          {/* left side ----> */}
-          <img className="bookImg" src={bookImg} alt="html/css & js book" />
-          {/* right side content -----> */}
-          <p>
-            Here are a few selections of some of my best work as a web developer. Lorem ipsum dolor
-            sit amet consectetur adipisicing elit. Placeat quibusdam cupiditate perferendis quod.
-            Consectetur itaque dicta ab pariatur aliquid minus, qui hic culpa autem. Voluptates cum
-            tempore odit natus?
-          </p>
-        </div>
+    <>
+      <ProjectStyle className="container">
+        <div className="featured-works-bookImg-p-wrapper">
+          <div className="project-flex">
+            {/* left side ----> */}
+            <img className="bookImg" src={bookImg} alt="html/css & js book" />
+            {/* right side content -----> */}
+            <p>
+              Here are a few selections of some of my best work as a web developer.
+              <br />
+              <span className="all-projects">
+                <i className="fa fa-circle colon" aria-hidden="true" />
+                <i className="fa fa-circle colon" aria-hidden="true" />
+                <i className="fa fa-circle colon" aria-hidden="true" />
+                <i className="fa fa-circle colon" aria-hidden="true" />
+                <i className="fa fa-circle colon" aria-hidden="true" />
+                <i className="fa fa-circle colon" aria-hidden="true" />
+                <i className="fa fa-circle colon" aria-hidden="true" />
+                <i className="fa fa-circle colon" aria-hidden="true" />
+                <i className="fa fa-circle colon" aria-hidden="true" />
+              </span>
+            </p>
+          </div>
 
-        {/* Featured works ---> */}
-        <div className="featured-flex">
-          {/* featured title left side ----> */}
-          <h3>
-            Featured_
-            <br />
-            works
-            <span className="colon">:</span>
-          </h3>
+          {/* Featured works ---> */}
+          <div className="featured-flex">
+            {/* featured title left side ----> */}
+            <h3>
+              Featured_
+              <br />
+              works
+              <span className="colon">:</span>
+            </h3>
+          </div>
         </div>
-      </div>
-      {/* PROJECTS */}
-      <div className="projectCard-wrap container">
-        {projects.map((item, index) => (
-          <ProjectCard
-            key={item.id}
-            setHoverHandler={() => setHoverHandler(index)}
-            disableHoverHandler={() => disableHoverHandler(index)}
-            item={item}
-          />
-        ))}
-      </div>
-      <BlueCircles />
-    </ProjectStyle>
+        {/* PROJECTS */}
+        <div className="projectCard-wrap container">
+          {projects.map((item, index) => (
+            <ProjectCard
+              key={item.id}
+              setHoverHandler={() => setHoverHandler(index)}
+              disableHoverHandler={() => disableHoverHandler(index)}
+              item={item}
+            />
+          ))}
+        </div>
+        <BlueCircles />
+      </ProjectStyle>
+    </>
   );
 };
 

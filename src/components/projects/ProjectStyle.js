@@ -47,6 +47,19 @@ export const ProjectStyle = styled.section`
       align-self: flex-start;
       width: 30%;
       margin-top: -100px;
+      @media (max-width: 991px) {
+        text-align: center;
+      }
+      .all-projects {
+        padding-top: 100px;
+        flex-wrap: wrap;
+        display: flex;
+        width: 70px;
+        margin: 0 auto;
+        i {
+          margin: 2px;
+        }
+      }
     }
   }
 
@@ -56,6 +69,7 @@ export const ProjectStyle = styled.section`
     margin-top: 250px;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
     @media (max-width: 991px) {
       margin: 0 auto;
       margin-top: 100px;
