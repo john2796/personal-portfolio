@@ -44,12 +44,8 @@ export const ProjectStyle = styled.section`
       width: 50%;
     }
     p {
-      align-self: flex-start;
+      align-self: center;
       width: 30%;
-      margin-top: -100px;
-      @media (max-width: 991px) {
-        text-align: center;
-      }
       .all-projects {
         padding-top: 100px;
         flex-wrap: wrap;
