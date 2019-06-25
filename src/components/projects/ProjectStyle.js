@@ -110,6 +110,10 @@ export const ProjectStyle = styled.section`
       margin-bottom: 0;
       display: inline-block;
       padding: 5px;
+      @media (max-width: 480px) {
+        font-size: 50px;
+        line-height: 67px;
+      }
     }
     .card-title:after {
       content: '';

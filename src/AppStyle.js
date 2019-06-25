@@ -39,6 +39,10 @@ export const AppStyle = styled.div`
       font-size: 100px;
       line-height: 115px;
     }
+    @media (max-width: 480px) {
+      font-size: 80px;
+      line-height: 85px;
+    }
   }
 
   h2,
@@ -54,6 +58,10 @@ export const AppStyle = styled.div`
     @media (max-width: 991px) {
       font-size: 80px;
       line-height: 100px;
+    }
+    @media (max-width: 480px) {
+      font-size: 50px;
+      line-height: 65px;
     }
   }
   h4 {
@@ -98,7 +106,12 @@ export const AppStyle = styled.div`
       font-size: 80px;
       line-height: 100px;
     }
+    @media (max-width: 480px) {
+      font-size: 60px;
+      line-height: 70px;
+    }
   }
+
   /*-------------------------------------------------*/
   /*              RANDOM_GLOBAL  
 /*-------------------------------------------------*/

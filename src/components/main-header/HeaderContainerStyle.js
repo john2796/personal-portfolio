@@ -8,6 +8,10 @@ export const HeaderContainerStyle = styled.div`
     width: 80px;
     height: 80px;
     margin: 20px;
+    @media (max-width: 480px) {
+      width: 55px;
+      height: 55px;
+    }
   }
 `;
 
