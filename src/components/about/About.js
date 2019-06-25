@@ -13,9 +13,10 @@ const About = () => (
         <span className="colon">:</span>
       </h2>
       <p className="about small-height">
-        Hello. I am John a Web developer who strives to learn, and take on challenges daily.
-        Experienced in mentoring other developers, and teaching programming Consistently improves
-        upon projects and designs, seeking to inspire people with easy to navigate web design
+        Hello, my name is John and I am a full-stack web developer who loves to learn and take on
+        challenges daily. I'm experienced in mentoring and teaching computer programming to other
+        developers. I'm consistently improving upon projects and designs, seeking to inspire others,
+        through easy-to-navigate web design.
       </p>
       <BlueCircles />
     </div>

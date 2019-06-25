@@ -32,8 +32,6 @@ const ProjectContainer = () => {
             <img className="bookImg" src={bookImg} alt="html/css & js book" />
             {/* right side content -----> */}
             <p>
-              Here are a few selections of some of my best work as a web developer.
-              <br />
               <span className="all-projects">
                 <i className="fa fa-circle colon" aria-hidden="true" />
                 <i className="fa fa-circle colon" aria-hidden="true" />

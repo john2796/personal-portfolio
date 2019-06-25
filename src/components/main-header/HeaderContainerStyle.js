@@ -46,7 +46,7 @@ export const TitleContainer = styled.div`
       margin-left: -7px;
       @media (max-width: 1199px) {
         font-size: 300px;
-        line-height: 300px;
+        line-height: 350px;
       }
       @media (max-width: 800px) {
         display: none;
@@ -65,9 +65,6 @@ export const TitleContainer = styled.div`
     }
     h1 {
       order: 2;
-      @media (max-width: 1199px) {
-        order: -1;
-      }
       @media (max-width: 991px) {
         order: -1;
         width: 100%;
@@ -76,11 +73,12 @@ export const TitleContainer = styled.div`
   }
   .fs-web {
     transform: rotate(-90deg);
-    height: 100%;
     @media (max-width: 1199px) {
-      transform: inherit;
+      margin-left: -100px;
     }
     @media (max-width: 991px) {
+      margin-left: initial;
+      transform: inherit;
       width: 100%;
     }
   }
