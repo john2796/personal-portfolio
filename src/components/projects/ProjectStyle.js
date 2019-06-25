@@ -163,9 +163,10 @@ export const ProjectStyle = styled.section`
     top: -200px;
     left: 98px;
     @media (max-width: 991px) {
-      top: -182px;
-      left: -85px;
-      right: 0;
+      left: initial;
+      top: initial;
+      top: -100px;
+      left: -30px;
       transform: initial;
     }
   }
@@ -175,6 +176,13 @@ export const ProjectStyle = styled.section`
     top: -182px;
     left: -85px;
     right: 0;
+    @media (max-width: 991px) {
+      left: initial;
+      top: initial;
+      top: -100px;
+      left: -30px;
+      transform: initial;
+    }
   }
   /* position card */
   .card-1 {
