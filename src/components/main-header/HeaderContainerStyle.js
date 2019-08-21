@@ -110,7 +110,9 @@ export const SocialContainer = styled.div`
       top: 103px;
       right: -116px;
     }
-
+    @media (max-width: 480px) {
+      display: none;
+    }
     a {
       transform: rotate(-90deg);
       background: #1f1f1f;

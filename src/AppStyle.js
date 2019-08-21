@@ -15,6 +15,9 @@ export const BlueCircle = styled.div`
   top: ${props => props.top || 1};
   bottom: ${props => props.bottom || 1};
   z-index: -4;
+  @media (max-width: 480px) {
+    display: none;
+  }
 `;
 
 export const AppStyle = styled.div`
@@ -40,7 +43,7 @@ export const AppStyle = styled.div`
       line-height: 115px;
     }
     @media (max-width: 480px) {
-      font-size: 80px;
+      font-size: 70px;
       line-height: 85px;
     }
   }
@@ -60,8 +63,8 @@ export const AppStyle = styled.div`
       line-height: 100px;
     }
     @media (max-width: 480px) {
-      font-size: 50px;
-      line-height: 65px;
+      font-size: 45px;
+      line-height: 60px;
     }
   }
   h4 {
@@ -107,8 +110,8 @@ export const AppStyle = styled.div`
       line-height: 100px;
     }
     @media (max-width: 480px) {
-      font-size: 60px;
-      line-height: 70px;
+      font-size: 55px;
+      line-height: 65px;
     }
   }
 

@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const FooterStyle = styled.div`
   padding: 150px 0 50px 0;
+  @media (max-width: 480px) {
+    padding: initial;
+  }
   position: relative;
   .big-text {
     position: absolute;
@@ -46,7 +49,9 @@ export const FooterStyle = styled.div`
     display: block;
     position: initial;
     z-index: 99;
-
+    @media (max-width: 380px) {
+      margin-bottom: 50px;
+    }
     ul {
       transform: initial;
       display: flex;

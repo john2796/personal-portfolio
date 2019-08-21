@@ -93,6 +93,9 @@ export const ProjectStyle = styled.section`
       @media (max-width: 991px) {
         max-width: 100%;
       }
+      @media (max-width: 480px) {
+        min-width: 300px;
+      }
     }
 
     .card-title {
@@ -169,6 +172,9 @@ export const ProjectStyle = styled.section`
       left: -30px;
       transform: initial;
     }
+    @media (max-width: 480px) {
+      display: none;
+    }
   }
   .card-1 .card-title:after,
   .card-3 .card-title:after,
@@ -182,6 +188,9 @@ export const ProjectStyle = styled.section`
       top: -100px;
       left: -30px;
       transform: initial;
+    }
+    @media (max-width: 480px) {
+      display: none;
     }
   }
   /* position card */
