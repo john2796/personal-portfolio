@@ -23,8 +23,8 @@ export const projectsData = [
     img: project2,
     id: 1,
     hover: false,
-    link: 'https://moviedb19.netlify.com/',
-    github_link: 'https://github.com/john2796/moviedb19',
+    link: 'https://moviedbmiranda.netlify.com/',
+    github_link: 'https://github.com/john2796/moviedb-hooks',
     desc:
       'MovieDB is a web app that allows users to browse their favorite movies and TV shows. Built with react, this app gets data from the IMDB api. This was a personal project to test my skills and knowledge on apis, filters, links, routes and redux.',
   },
