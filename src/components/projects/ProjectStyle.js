@@ -115,8 +115,8 @@ export const ProjectStyle = styled.section`
       }
     }
     .card-title:after {
-      content: '';
-      font-family: 'Inconsolata', monospace;
+      content: "";
+      font-family: "Inconsolata", monospace;
       z-index: 1;
       font-size: 16px;
       width: 234px;
@@ -124,7 +124,7 @@ export const ProjectStyle = styled.section`
       background-color: rgba(217, 217, 217, 0.4);
       position: absolute;
       text-align: center;
-      font-family: 'FontAwesome';
+      font-family: "FontAwesome";
       opacity: 0.5;
     }
 
@@ -140,7 +140,7 @@ export const ProjectStyle = styled.section`
 
     /* hover effects */
     .text::after {
-      content: 'view project \f178';
+      content: "view project \f178";
       opacity: 1;
     }
     .dark {
@@ -161,7 +161,8 @@ export const ProjectStyle = styled.section`
   /* view project style  */
   .card-0 .card-title:after,
   .card-2 .card-title:after,
-  .card-4 .card-title:after {
+  .card-4 .card-title:after,
+  .card-7 .card-title:after {
     transform: rotate(90deg);
     top: -200px;
     left: 98px;
@@ -203,15 +204,22 @@ export const ProjectStyle = styled.section`
   }
 
   .card-2,
-  .card-4 {
+  .card-4,
+  .card-7 {
     margin-top: 150px;
   }
   /* darken image of white bg */
   .card-0 img,
   .card-4 img,
-  .card-5 img {
+  .card-5 img,
+  .card-7 img {
     opacity: 0.8;
   }
+  .card-7 img {
+    object-fit: contain;
+  }
+
+  /* .card-7 .card-title:after */
   /* reset aligning on smaller size so i can use display block  */
   @media (max-width: 991px) {
     .card-0,
@@ -219,7 +227,8 @@ export const ProjectStyle = styled.section`
     .card-2,
     .card-3,
     .card-4,
-    .card-5 {
+    .card-5,
+    .card-7 {
       margin: 0;
       right: 0;
       left: 0;

@@ -4,6 +4,7 @@ import project3 from '../../assets/project_03.png';
 import project4 from '../../assets/project_04.png';
 import project5 from '../../assets/project_05.png';
 import project6 from '../../assets/project_06.png';
+import project7 from '../../assets/project_07.png';
 
 export const projectsData = [
   {
@@ -71,5 +72,17 @@ export const projectsData = [
     github_link: 'https://github.com/use-my-tools/Front-End',
     desc:
       "Tool Rent is an app that allows users to rent neighbor's tools or loan their own tools. Users will be able to create, read, update, and delete data within the app. Users can log in and see what items that are available for rent and then request to borrow.",
+  },
+
+  {
+    title: 'Letsz_',
+    sub: 'doIt',
+    img: project7,
+    id: 7,
+    hover: false,
+    link: ' https://letzdo-it.netlify.com/',
+    github_link: 'https://github.com/pumpkin-spice-19/letzDo-it-FE',
+    desc:
+      'Letsz_doIt  is a task management application that helps to manage your personal and professional productivity. You can use it to manage your tasks from a computer.',
   },
 ];

@@ -1,28 +1,28 @@
 /* eslint-disable no-param-reassign */
 /* eslint-disable jsx-a11y/anchor-has-content */
-import React, { useState } from 'react';
-import { ProjectStyle } from './ProjectStyle';
-import { projectsData } from './ProjectData';
+import React, { useState } from "react"
+import { ProjectStyle } from "./ProjectStyle"
+import { projectsData } from "./ProjectData"
 
 // images --->
-import bookImg from '../../assets/js-book-img.jpg';
-import ProjectCard from './ProjectCard';
-import BlueCircles from '../main-header/BlueCircles';
+import bookImg from "../../assets/js-book-img.jpg"
+import ProjectCard from "./ProjectCard"
+import BlueCircles from "../main-header/BlueCircles"
 
 const ProjectContainer = () => {
-  const [projects, setProjects] = useState(projectsData);
+  const [projects, setProjects] = useState(projectsData)
 
-  const setHoverHandler = (index) => {
-    const updatedProjects = [...projects];
-    updatedProjects[index].hover = true;
-    setProjects(updatedProjects);
-  };
+  const setHoverHandler = index => {
+    const updatedProjects = [...projects]
+    updatedProjects[index].hover = true
+    setProjects(updatedProjects)
+  }
 
-  const disableHoverHandler = (index) => {
-    const updatedProjects = [...projects];
-    updatedProjects[index].hover = false;
-    setProjects(updatedProjects);
-  };
+  const disableHoverHandler = index => {
+    const updatedProjects = [...projects]
+    updatedProjects[index].hover = false
+    setProjects(updatedProjects)
+  }
   return (
     <>
       <ProjectStyle className="container">
@@ -71,7 +71,7 @@ const ProjectContainer = () => {
         <BlueCircles />
       </ProjectStyle>
     </>
-  );
-};
+  )
+}
 
-export default React.memo(ProjectContainer);
+export default React.memo(ProjectContainer)
