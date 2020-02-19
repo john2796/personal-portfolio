@@ -12,7 +12,7 @@ Hello and welcome to my portfolio website that showcases all my recent projects,
 <br>
 
 
-![Portfolio Site Example Shot](./src/assets/readme-sample2.png)
+![Portfolio Site Example Shot](./src/assets/site-example.gif)
 <br>
 
 ## Table of Contents
@@ -30,7 +30,7 @@ Hello and welcome to my portfolio website that showcases all my recent projects,
 #### How to run the app
   1. Either fork using [https://github.com/john2796/personal-portfolio.git](https://github.com/john2796/personal-portfolio.git) or download the app and open the folder in the cli
   2. [`yarn install`](https://classic.yarnpkg.com/en/docs/cli/install) :  installs all the dependencies defined in a <span style="color:red">package.json</span> file. for more information about yarn [click here](https://classic.yarnpkg.com/en/docs/cli/)
-  3. run `npm start` or `yarn start` Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  3. `npm start` or `yarn start` Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
   This page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
 
 ## Stack
