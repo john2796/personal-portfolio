@@ -2,7 +2,7 @@
 
 #
 
-<h1 align="center"><img src="../personal-portfolio/src/assets/readme-title.png" /></h1>
+<h1 align="center"><img src="./src/assets/readme-title.png" /></h1>
 
 # Personal Portfolio Website
 
@@ -12,7 +12,7 @@ Hello and welcome to my portfolio website that showcases all my recent projects,
 <br>
 
 
-![Portfolio Site Example Shot](../personal-portfolio/src/assets/readme-sample2.png)
+![Portfolio Site Example Shot](./src/assets/readme-sample2.png)
 <br>
 
 ## Table of Contents
