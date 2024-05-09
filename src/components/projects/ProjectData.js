@@ -24,7 +24,7 @@ export const projectsData = [
     img: project2,
     id: 1,
     hover: false,
-    link: 'https://moviedbmiranda.netlify.com/',
+    link: 'https://moviedbmiranda.netlify.app/',
     github_link: 'https://github.com/john2796/moviedb-hooks',
     desc:
       'MovieDB is a web app that allows users to browse their favorite movies and TV shows. Built with react, this app gets data from the IMDB api. This was a personal project to test my skills and knowledge on apis, filters, links, routes and redux.',
@@ -35,7 +35,7 @@ export const projectsData = [
     img: project3,
     id: 2,
     hover: false,
-    link: 'https://miranda-realestate.netlify.com/',
+    link: 'https://miranda-realestate.netlify.app/',
     github_link: 'https://github.com/john2796/portfolio-003-real-estate',
     desc:
       'Los Angeles Experts is an app that allows users to browse house listings. I built this app in order to practice my front-end development skills. React.js, React-Router, and Redux are all used for this app.',
@@ -46,7 +46,7 @@ export const projectsData = [
     img: project4,
     id: 3,
     hover: false,
-    link: 'https://miranda-restaurant.netlify.com/',
+    link: 'https://miranda-restaurant.netlify.app/',
     github_link: 'https://github.com/john2796/portfolio-restaurant-01',
     desc:
       "Soul Food is an app that allows users to browse multiple restaurants' food menus. This project is built with react and it showcases my passion for visual art, as well as my love for food.",
@@ -57,7 +57,7 @@ export const projectsData = [
     img: project5,
     id: 4,
     hover: false,
-    link: 'https://miranda-insta-clone.netlify.com/',
+    link: 'https://miranda-insta-clone.netlify.app/',
     github_link: 'https://github.com/john2796/React-Insta-Clone-1',
     desc:
       'School assignment. The goal was to create an Instagram clone that allows users to login, like posts and add comments. This was built using react.js, redux, and node/express.',
@@ -68,7 +68,7 @@ export const projectsData = [
     img: project6,
     id: 5,
     hover: false,
-    link: 'https://miranda-usemytools.netlify.com/',
+    link: 'https://miranda-usemytools.netlify.app/',
     github_link: 'https://github.com/use-my-tools/Front-End',
     desc:
       "Tool Rent is an app that allows users to rent neighbor's tools or loan their own tools. Users will be able to create, read, update, and delete data within the app. Users can log in and see what items that are available for rent and then request to borrow.",
@@ -80,7 +80,7 @@ export const projectsData = [
     img: project7,
     id: 7,
     hover: false,
-    link: ' https://letzdo-it.netlify.com/',
+    link: 'https://letzdo-it.netlify.app/',
     github_link: 'https://github.com/pumpkin-spice-19/letzDo-it-FE',
     desc:
       'Letsz_doIt  is a task management application that helps to manage your personal and professional productivity. You can use it to manage your tasks from a computer.',
